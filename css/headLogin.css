@@ -1,0 +1,89 @@
+*{
+    font-family: 'Itim', cursive;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-y: scroll; /* Add the ability to scroll */
+}
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  body::-webkit-scrollbar {
+      display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+.navbar { background-color: #b10000; }
+.navbar .navbar-nav .nav-link { color: rgb(255, 255, 255); }
+.navbar .navbar-nav .nav-link:hover { color: #000000; }
+.navbar .navbar-nav .active > .nav-link { color: #000000; }
+
+
+.b-1{
+
+    background: rgb(255, 196, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+
+img{
+    width: 70px;
+}
+
+.b-2{
+    width: 70%;
+    text-align: end;
+    background: rgb(255, 212, 69);
+    padding-right: 10px;
+}
+
+.b-3{
+    background: rgb(201, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.b-4{
+    
+    width: 70%;
+    text-align: end;
+    background: rgb(255, 0, 0);
+    padding-right: 10px;
+}
+
+.b-5{
+
+
+    background: rgb(0, 255, 213);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}
+.b-6{
+    
+    width: 70%;
+    text-align: end;
+    background: rgb(73, 255, 225);
+    padding-right: 10px;
+}
+
+
+
+
+
+  
+
+
+
+/* @media (max-width: 992px)  { border-right: none; }  */
